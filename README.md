@@ -17,7 +17,6 @@ The application uses the following crates:
 - `eframe` for the GUI framework
 - `egui` for the GUI components
 - `serialport` for serial communication
-- `webbrowser` for opening web links
 
 ## Installation
 
@@ -26,11 +25,11 @@ To install and run the application, follow these steps:
 1. Ensure you have Rust installed. If not, install it from [rust-lang.org](https://www.rust-lang.org/).
 2. Clone the repository:
    ```sh
-   git clone https://github.com/CLoaKY233/Plottypus.git
+   git clone https://github.com/CLoaKY233/serial-plotter.git
    ```
 3. Navigate to the project directory:
    ```sh
-   cd Plottypus
+   cd serial-plotter
    ```
 4. Build and run the application:
    ```sh
@@ -72,7 +71,3 @@ graph TD
     C --> H[Plot Settings Section]
     D --> I[Real-Time Plot]
 ```
-
-## Help
-
-For more information, visit [www.cloaky.works](https://www.cloaky.works).

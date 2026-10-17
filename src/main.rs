@@ -6,7 +6,6 @@ use eframe::egui::plot::{Line, Plot, Value, Values};
 use eframe::egui::{self, RichText};
 use eframe::{self, App, Frame};
 use serialport::SerialPortInfo;
-use webbrowser;
 
 fn main() {
     let native_options = eframe::NativeOptions {
@@ -321,13 +320,6 @@ impl App for MyApp {
                     ui.label("2. Choose the appropriate baud rate");
                     ui.label("3. Click 'Start' to begin data collection");
                     ui.label("4. Adjust the window length to change the visible time range");
-                    ui.add_space(16.0);
-                    ui.separator();
-                    ui.add_space(8.0);
-                    ui.label("For more information, visit:");
-                    if ui.link("www.cloakycodes.me").clicked() {
-                        webbrowser::open("https://www.cloakycodes.me").ok();
-                    }
                 });
         }
 
