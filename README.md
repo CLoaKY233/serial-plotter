@@ -2,6 +2,17 @@
 
 Plottypus is a serial data plotter application written in Rust. It provides a graphical user interface (GUI) for selecting serial ports, baud rates, and starting/stopping data collection. The application plots the collected data in real-time and includes a help window with basic usage instructions.
 
+![The plotter showing EMG readings from a forearm muscle while making a fist](docs/emg-plot.jpg)
+
+<p align="center">
+  <img src="docs/prosthetic-arm.jpg" width="40%" alt="The 3D-printed prosthetic arm">
+  <img src="docs/arm-esp32.jpg" width="30%" alt="The arm open on the desk with the ESP32 inside">
+</p>
+
+Built in November 2024 to read EMG signals from an ESP32 for a 3D-printed prosthetic arm,
+later used at the Smart India Hackathon 2024 finals. The original code is tagged
+[`v0.1.0-2024`](https://github.com/CLoaKY233/serial-plotter/tree/v0.1.0-2024).
+
 ## Features
 
 - Select serial ports and baud rates
